@@ -2,8 +2,8 @@
 
 
 #DESCRIPTION: this script is to check if in the grub.conf the default is set to 0
-# AUTHOR: DYLAN
-#DATE : 11-14-2019
+# AUTHOR: Jules
+#DATE : 11-14-2016
 
 def=`cat /etc/grub.conf |head -10 | tail -1 |awk -F"=" '{print $2 }'`
 
